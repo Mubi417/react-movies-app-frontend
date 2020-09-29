@@ -1,0 +1,11 @@
+.results > div { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.results > div > p {
+    font-size: x-large;
+    color: white;
+}

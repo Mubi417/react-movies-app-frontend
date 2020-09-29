@@ -1,0 +1,39 @@
+.video-card {
+    color: white;
+    width: 400px;
+    padding: 15px;
+    transition: transform 100ms ease-in-out;
+}
+
+.video-card-stats {
+    display: none;
+}
+
+.video-card:hover > .video-card-stats {
+    display: block;
+}
+
+.video-card:hover {
+    transform: scale(1.07);
+}
+
+.video-card > img {
+    height: 270px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.video-card > h2 {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 440px) {
+    .video-card {
+        width: 250px;
+    }
+    .video-card > img {
+        width: 250px;
+        height: 150px;
+        object-fit: contain;
+    }
+  }
